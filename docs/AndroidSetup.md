@@ -5,7 +5,7 @@
 - Make sure your Android project is setup to be compiled using 8.1+ as target framework (**Project must compile against 27+ as plugin is using API 26 specific things. Here is a great breakdown: http://redth.codes/such-android-api-levels-much-confuse-wow/**)
 
 ### Common Issues
-- If Nugget gives you a Dependency Error, when trying to install our Plugin on you Android project. This is a known issue with the support libraries on Android and it means you basically need to install the Xamarin.Android.Support.CustomTabs Nugget before installing the Facebook Client Plugin Nugget.
+- If Nugget gives you a dependency Error, when trying to install our Plugin on your Android project. This is a known issue with the support libraries on Android and it means you basically need to install the Xamarin.Android.Support.CustomTabs Nugget before installing the Facebook Client Plugin Nugget so it resolves it's needed dependecies and installs correctly.
 
 ### MainActivity.cs
 
